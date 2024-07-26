@@ -1,0 +1,53 @@
+{
+  
+    "scripts": {
+  
+      
+    "start": "react-scripts start",
+  
+      
+    "build": "react-scripts build",
+  
+      
+    "test": "react-scripts test",
+  
+      
+    "eject": "react-scripts eject",
+  
+      
+    "storybook": "start-storybook -p 6006"
+  
+    },
+  
+    "dependencies": {
+  
+      
+    "@reduxjs/toolkit": "^2.2.6",
+  
+      
+    "@storybook/react": "^8.2.6",
+  
+      
+    "phosphor-react": "^1.4.1",
+  
+      
+    "react-dom": "^18.3.1",
+  
+      
+    "react-range": "^1.9.2",
+  
+      
+    "react-redux": "^9.1.2",
+  
+      
+    "react-scripts": "^5.0.1"
+  
+    },
+  
+    "devDependencies": {
+  
+      
+    "chromatic": "^11.5.6"
+  
+    }
+}
