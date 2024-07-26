@@ -1,4 +1,3 @@
-// src/components/Slider.tsx
 
 import React, { useState } from 'react';
 import './Slider.scss';
@@ -9,9 +8,9 @@ type SliderSubtype = 'single' | 'range';
 interface SliderProps {
   type: SliderType;
   subtype: SliderSubtype;
-  steps?: number; // Only applicable for 'discreet'
+  steps?: number;
   handleSize: 'Size_24' | 'Size_32';
-  onChange: (value: number | [number, number]) => void; // For single or range
+  onChange: (value: number | [number, number]) => void; 
 }
 
 const Slider: React.FC<SliderProps> = ({

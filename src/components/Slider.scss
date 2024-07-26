@@ -1,4 +1,3 @@
-// src/components/Slider.scss
 
 .slider {
   width: 100%;
@@ -13,19 +12,19 @@
   }
 
   &-continuous {
-    // Styles for continuous slider
+    
   }
 
   &-discreet {
-    // Styles for discreet slider
+   
   }
 
   &-single {
-    // Styles for single slider
+
   }
 
   &-range {
-    // Styles for range slider
+ 
   }
 
   .slider-input {
@@ -33,11 +32,11 @@
     cursor: pointer;
 
     &:hover {
-      // Hover styles
+
     }
 
     &:active {
-      // Active styles
+  
     }
   }
 }
